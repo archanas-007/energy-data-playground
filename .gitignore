@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Mac
+.DS_Store
+
+# Data (Generated)
+final_dataset.csv
+model_ready_data.csv
+
+# Models
+xgb_model.json
+
+# Plots
+*.png
+
+# Logs
+*.log
+
+
+# User-specified ignores
+.streamlit/config.toml
+API_EG.USE.PCAP.KG.OE_DS2_en_csv_v2_2449.zip
+API_EG.USE.PCAP.KG.OE_DS2_en_csv_v2_2449/
+chat_history.md
+session_history.json
+session_history.md
+session_summary.md
+ts.py
+
+# Images (ensure no images are pushed)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
