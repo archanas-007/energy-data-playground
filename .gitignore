@@ -20,3 +20,22 @@ xgb_model.json
 
 # Logs
 *.log
+
+
+# User-specified ignores
+.streamlit/config.toml
+API_EG.USE.PCAP.KG.OE_DS2_en_csv_v2_2449.zip
+API_EG.USE.PCAP.KG.OE_DS2_en_csv_v2_2449/
+README.md
+chat_history.md
+session_history.json
+session_history.md
+session_summary.md
+ts.py
+
+# Images (ensure no images are pushed)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
