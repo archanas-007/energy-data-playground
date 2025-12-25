@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Mac
+.DS_Store
+
+# Data (Generated)
+final_dataset.csv
+model_ready_data.csv
+
+# Models
+xgb_model.json
+
+# Plots
+*.png
+
+# Logs
+*.log
