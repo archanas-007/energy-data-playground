@@ -18,6 +18,8 @@ xgb_model.json
 .streamlit/config.toml
 API_EG_*.zip
 API_EG_*/
+API_EG.USE.PCAP.KG.OE_DS2_en_csv_v2_2449/
+API_EG.USE.PCAP.KG.OE_DS2_en_csv_v2_2449.zip
 chat_history.md
 session_history.json
 session_history.md
