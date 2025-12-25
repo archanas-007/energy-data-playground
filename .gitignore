@@ -1,4 +1,4 @@
-# Python
+# Python & Environment
 __pycache__/
 *.py[cod]
 .venv/
@@ -8,37 +8,31 @@ venv/
 # Mac
 .DS_Store
 
-# Data (Generated)
+# Data, Models & Logs
 final_dataset.csv
 model_ready_data.csv
-
-# Models
 xgb_model.json
-
-# Plots
-*.png
-
-# Logs
 *.log
-
 
 # User-specified ignores
 .streamlit/config.toml
-API_EG.USE.PCAP.KG.OE_DS2_en_csv_v2_2449.zip
-API_EG.USE.PCAP.KG.OE_DS2_en_csv_v2_2449/
+API_EG_*.zip
+API_EG_*/
 chat_history.md
 session_history.json
 session_history.md
 session_summary.md
 ts.py
+app.py
 
-# Images (ensure no images are pushed)
+# --- IMAGE HANDLING ---
+# 1. Ignore ALL image formats everywhere
 *.png
 *.jpg
 *.jpeg
 *.gif
 *.svg
-# But allow committed project images in the img/ folder
+
+# 2. BUT allow the img folder and everything inside it
 !img/
 !img/*
-app.py

@@ -18,16 +18,18 @@ A Time Series analysis project that predicts future global energy demand based o
 
 - **VAR Model MAPE:** (see `model.py` output)
 - **XGBoost Model MAPE:** (see `model.py` output)
- - See `img/model_comparison.svg` for a visual comparison of forecasts.
+- See `img/model_comparison.png` for a visual comparison of forecasts.
 
 ## Figures
 
-- **Landing Page:** ![Landing Page](img/landing.png) — First look at the app: interactive energy-forecasting dashboard UI where users can adjust GDP scenarios and view predicted Energy Use.
+- **Landing Page:** ![Landing Page](img/landing.png)
+  *First look at the app: interactive energy-forecasting dashboard UI where users can adjust GDP scenarios and view predicted Energy Use.*
 
-- **Heatmap (Correlation):** ![Correlation Heatmap](img/heatmap.png) — Correlation matrix and lag relationships used in EDA.
+- **Heatmap (Correlation):** ![Correlation Heatmap](img/heatmap.png)
+  *Correlation matrix and lag relationships used in EDA.*
 
-- **Model Comparison:** ![Model Comparison](img/model_comparison.png) — Forecast comparison between VAR and XGBoost.
+- **Model Comparison:** ![Model Comparison](img/model_comparison.png)
+  *Forecast comparison between VAR and XGBoost.*
 
 - **CO2 Forecast:** ![CO2 Forecast](img/CO2-Forecast.png)
-
-  The "straight line" is happening because the model is relying almost entirely (~98%) on `CO2_Emissions` to predict `Energy_Use`. Since the app holds CO2 emissions constant for the future, the Energy prediction remains constant, regardless of the GDP slider.
+  *The "straight line" occurs because the model relies heavily (~98%) on CO2_Emissions. Since CO2 is held constant in the scenario, the Energy prediction remains stable regardless of GDP fluctuations.*
