@@ -38,4 +38,7 @@ ts.py
 *.jpeg
 *.gif
 *.svg
+# But allow committed project images in the img/ folder
+!img/
+!img/*
 app.py
